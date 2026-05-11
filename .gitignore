@@ -1,0 +1,23 @@
+# Jetbrans
+.idea/
+
+
+# Microsoft
+.vs/
+*.user
+
+# Godot
+.godot/
+
+# QT
+.qtcreator/
+
+
+# build directory
+obj/
+bin/
+bin-int/
+build/
+target/
+cmake-build-debug/
+
