@@ -54,7 +54,9 @@ int create_tcp_socket_old() {
 }
 
 int create_tcp_socket_new() {
-    //TODO: not writer
+
+    asio::io_context io_context;
+    ip::tcp::socket sock(io_context, ip::tcp::v4());
     return 0;
 }
 
