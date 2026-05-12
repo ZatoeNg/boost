@@ -15,6 +15,10 @@ extern int bind_acceptor_socket_old();
 extern int ip_connect_to_end();
 extern int dns_connect_to_end();
 extern int accept_connection_new();
+extern void use_const_buffer();
+extern void use_buffer_str();
+extern void use_buffer_array();
+// extern void write_to_socket(asio::ip::tcp::socket& socket);
 
 
 

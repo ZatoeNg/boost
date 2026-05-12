@@ -14,3 +14,5 @@ link_libraries(ws2_32)
 # 主程序
 add_subdirectory(test)
 add_subdirectory(end_point)
+add_subdirectory(sync_client)
+add_subdirectory(sync_server)

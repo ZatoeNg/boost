@@ -1,0 +1,1 @@
+add_executable(sync_server main.cpp)
